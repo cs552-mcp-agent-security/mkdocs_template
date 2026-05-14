@@ -1,0 +1,9 @@
+{
+  "task": "mkdocs_docs_update",
+  "required_files": [
+    "docs/runbooks/troubleshooting.md",
+    "mkdocs.yml"
+  ],
+  "validation_command": "make validate",
+  "optional_build_command": "mkdocs build --strict"
+}

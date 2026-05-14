@@ -1,0 +1,14 @@
+{
+  "template_id": "mkdocs_template",
+  "category": "documentation",
+  "task_type": "mkdocs_docs_update",
+  "clean_base": true,
+  "template_variables": {
+    "PROJECT_NAME": "mkdocs_template",
+    "REPORT_DIR": "reports"
+  },
+  "required_commands": [
+    "make validate"
+  ],
+  "variant_guidance": "Fork this clean base repository to create scenario-specific benchmark variants."
+}

@@ -1,0 +1,16 @@
+site_name: MCP Benchmark Docs
+site_description: Clean base MkDocs site for benchmark variants
+nav:
+  - Home: index.md
+  - Runbooks:
+      - Release Checklist: runbooks/release-checklist.md
+      - Troubleshooting: runbooks/troubleshooting.md
+theme:
+  name: material
+  features:
+    - navigation.sections
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+strict: true
